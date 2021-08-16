@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: block;
+  width: 1080px;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  align-items: center;
+  margin: 100px auto;
+}
+h1 {
+  font-size: 48px;
+  letter-spacing: 5px;
+  line-height: 30px;
+  color: #0ec8cb;
+  font-weight: 400;
+  margin: 25px auto;
+}
+h2 {
+  width: 513px;
+  height: 65px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #999999;
+  font-weight: 400;
+  font-family: "PT Sans";
+  margin: 0 auto;
+}
+.titleStyleFirst {
+  font-size: 12px;
+  letter-spacing: 5px;
+  line-height: 30px;
+  color: #898f99;
+  font-weight: 700;
+  margin: 15px 15px;
+}
+.textStyleName {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  /* line-height: 0px; */
+  text-align: center;
+  text-transform: uppercase;
+  color: #1b1b1b;
+  margin-top: 58px;
+  margin-bottom: 30px;
+}
+h4 {
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+  color: #777777;
+}
+
+main {
+  margin: 0 auto;
+}
+ul {
+  display: flex;
+  list-style: none;
+  font-size: 0;
+  /* position: relative; */
+}
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 420px;
+  margin: 0 auto;
+}
+li:hover {
+  background-color: #0dc7cb;
+}
+li:hover .contenStyle2 {
+  background: #fdfdfd;
+}
+.textStyle2,
+.textAboutStyle2 {
+  color: #ffffff;
+}
+li:hover .textStyle {
+  color: #fdfdfd;
+}
+li:hover .textAboutStyle {
+  color: #fdfdfd;
+}
+
+.icon1 {
+  width: 65px;
+  height: 68px;
+  background: url("../img/Anchor_Black.png") center center no-repeat;
+}
+li:hover .icon1 {
+  background-color: #0ec8cb;
+  background: url("../img/Anchor_White.png") center center no-repeat;
+}
+.icon2 {
+  width: 65px;
+  height: 65px;
+  background-color: #0ec8cb;
+  background: url("../img/Diamond_Black.png") center center no-repeat;
+}
+li:hover .icon2 {
+  background-color: #ffffff;
+  background: url("../img/Diamond_White.png") center center no-repeat;
+}
+.icon3 {
+  width: 65px;
+  height: 52px;
+  background: url("../img/Eyeglasses_Black.png") center center no-repeat;
+}
+li:hover .icon3 {
+  background-color: #0ec8cb;
+  background: url("../img/Eyeglasses_White.png") center center no-repeat;
+}
+.icon4 {
+  width: 65px;
+  height: 65px;
+  background: url("../img/Monitor_Black.png") center center no-repeat;
+}
+li:hover .icon4 {
+  background-color: #0ec8cb;
+  background: url("../img/Monitor_White.png") center center no-repeat;
+}

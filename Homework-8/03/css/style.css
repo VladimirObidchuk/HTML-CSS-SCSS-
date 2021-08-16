@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #e5e5e5;
+  text-transform: uppercase;
+  position: relative;
+  font-size: 0;
+  line-height: 0;
+  margin: 100 auto;
+}
+.row {
+  --bs-gutter-x: 1.3rem;
+  --bs-gutter-y: 1.1rem;
+}
+.foto_list a.carImg {
+  background: url("../img/Overlay.png") center center no-repea;
+}
+.carText {
+  color: rgba(255, 255, 255, 0.5);
+  margin: 10px 24px;
+}
+.titleImg1 {
+  width: 304px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #1d1d1d;
+  margin: 10px 24px;
+}
+.car {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: url("../img/Car.png") center no-repeat;
+  background-color: rgba(255, 255, 255, 0.5);
+  background-size: cover;
+  height: 540px;
+}
+.thumbnail_style {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  background-size: cover;
+  height: 540px;
+}
+.thumbnail_style1 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 540px;
+}
+.thumbnail_Img {
+  background-size: cover;
+  height: 242px;
+  margin: 0;
+}
+.Thumbnail2Img {
+  background: url("../img/Thumbnail2.png") center no-repeat;
+}
+.Thumbnail3Img {
+  background: url("../img/Thumbnail3.png") center no-repeat;
+  margin-top: 10px;
+}
+.Thumbnail4Img {
+  background: url("../img/Thumbnail4.png") center no-repeat;
+  margin: 10px;
+}
+.Thumbnail5Img {
+  background: url("../img/Thumbnail5.png") center no-repeat;
+  margin: 10px;
+}
+p {
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #818181;
+  margin: 25px 0;
+}
+.titleImg {
+  width: 304px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #1d1d1d;
+}
+.avatarImg {
+  display: flex;
+  background: url("../img/Avatar.png") left no-repeat;
+  height: 54px;
+  justify-self: flex-start;
+  margin: 20px;
+}
+.textTitle {
+  flex-grow: 1;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+}

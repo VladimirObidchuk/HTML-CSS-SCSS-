@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: block;
+  justify-content: center;
+  font-family: "Proxima Nova";
+  letter-spacing: 0px;
+  font-size: 14px;
+  text-align: center;
+}
+ul {
+  display: flex;
+  list-style: none;
+}
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 25% auto;
+}
+.icon1 {
+  width: 67px;
+  height: 65px;
+  border-radius: 50%;
+  border: 1px solid #1275b9;
+  background: url("../img/telWhite.png") center center no-repeat;
+}
+.icon1:hover {
+  background-color: white;
+  background-image: url("../img/telBlue.png");
+}
+.icon2 {
+  width: 67px;
+  height: 65px;
+  border-radius: 50%;
+  border: 1px solid #1275b9;
+  background: url("../img/setBlue.png") center center no-repeat;
+}
+.icon2:hover {
+  background-color: white;
+  background-image: url("../img/setWhite.png");
+}
+.icon3 {
+  width: 67px;
+  height: 65px;
+  border-radius: 50%;
+  border: 1px solid #1275b9;
+  background: url("../img/speedBlue.png") center center no-repeat;
+}
+.icon3:hover {
+  background-color: white;
+  background-image: url("../img/speedWhite.png");
+  border: none;
+}
+h3 {
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 24px;
+  color: #000000;
+  font-family: "Proxima Nova";
+  text-align: center;
+  margin: 15px 15px;
+}
+h4 {
+  width: 260px;
+  height: 51px;
+  font-size: 14px;
+  letter-spacing: 0px;
+  line-height: 20px;
+  color: #9d9d9d;
+  font-weight: 300;
+  font-family: "Proxima Nova";
+  text-align: center;
+}

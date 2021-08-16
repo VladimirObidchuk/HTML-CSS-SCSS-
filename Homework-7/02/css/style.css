@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 0.1s ease-in;
+  box-sizing: border-box;
+}
+body {
+  display: block;
+  background: #3399cc;
+  border: 24px solid #2b81ac;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  color: #ffffff;
+  width: 0 auto;
+}
+header {
+  font-size: 0;
+  line-height: 0;
+}
+h2 {
+  font-size: 24px;
+  line-height: 33px;
+}
+h4 {
+  font-size: 18px;
+  line-height: 33px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  width: 950px;
+  height: 658px;
+  margin: 60px auto;
+}
+.weatherList {
+  border: 1px solid #ffffff;
+}
+ul {
+  font-size: 0;
+  line-height: 0;
+}
+li {
+  display: inline-block;
+  border: solid white 2px;
+  text-align: center;
+  list-style: none;
+  font-size: 24px;
+  line-height: 33px;
+  line-height: 1.5;
+  vertical-align: middle;
+  color: #f0f8ff94;
+  padding-top: 45px;
+}
+
+.lisbonStyle,
+.san_franciscoStyle {
+  width: 50%;
+  padding: 20px;
+  background: #3399cc;
+}
+.parisStyle,
+.belgradeStyle,
+.moscowStyle,
+.tel_avivStyle,
+.cairStyle,
+.new_yorkStyle,
+.new_dehliStyle,
+.tokyoStyle {
+  width: 25%;
+  padding: 20px;
+}
+.new_dehliStyle,
+.tokyoStyle {
+  width: 25%;
+  padding: 20px;
+}
+.parisStyle {
+  background: #33cccc;
+}
+.belgradeStyle {
+  background: #996699;
+}
+.moscowStyle {
+  background: #c24747;
+}
+.tel_avivStyle {
+  background: #e2674a;
+}
+.cairStyle {
+  background: #e2674a;
+}
+.new_yorkStyle {
+  background: #99cc99;
+}
+.new_dehliStyle {
+  background: #669999;
+}
+.san_franciscoStyle {
+  background: #cc6699;
+}
+.tokyoStyle {
+  background: #339966;
+}
+.sydneyStyle {
+  background: #666699;
+  width: 100%;
+  padding: 50px;
+}
+ul:hover li {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+li.lisbonStyle:hover {
+  background: #3399cc;
+}
+
+li.parisStyle:hover {
+  background: #33cccc;
+}
+li.belgradeStyle:hover {
+  background: #996699;
+}
+li.moscowStyle:hover {
+  background: #c24747;
+}
+li.tel_avivStyle:hover {
+  background: #e2674a;
+}
+li.cairStyle:hover {
+  background: #e2674a;
+}
+li.new_yorkStyle:hover {
+  background: #99cc99;
+}
+li.new_dehliStyle:hover {
+  background: #669999;
+}
+li.san_franciscoStyle:hover {
+  background: #cc6699;
+}
+li.tokyoStyle:hover {
+  background: #339966;
+}
+li.sydneyStyle:hover {
+  background: #666699;
+}

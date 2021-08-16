@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "georgiaregular";
+  src: url("../font/georgia_regular_font-webfont.eot");
+  src: url("../font/georgia_regular_font-webfont.eot?#iefix")
+      format("../font/embedded-opentype"),
+    url("../font/georgia_regular_font-webfont.woff2") format("woff2"),
+    url("../font/georgia_regular_font-webfont.woff") format("woff"),
+    url("../font/georgia_regular_font-webfont.ttf") format("truetype"),
+    url("../font/georgia_regular_font-webfont.svg#georgiaregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "georgiaitalic";
+  src: url("../font/georgia_italic-webfont.eot");
+  src: url("../font/georgia_italic-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../font/georgia_italic-webfont.woff2") format("woff2"),
+    url("../font/georgia_italic-webfont.woff") format("woff"),
+    url("../font/georgia_italic-webfont.ttf") format("truetype"),
+    url("../font/georgia_italic-webfont.svg#georgiaitalic") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
