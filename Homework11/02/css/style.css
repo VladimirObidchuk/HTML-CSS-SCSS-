@@ -1,0 +1,152 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: block;
+  width: 600px;
+  height: 800px;
+  background: url("../img/BG.png") center center no-repeat;
+  margin: 0 auto;
+}
+.back_color {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  top: 20%;
+  background: #111a28;
+  box-shadow: 0px 0px 65px rgba(0, 0, 0, 0.82);
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.content {
+  display: flex;
+  align-content: center;
+  margin-top: 30px;
+}
+header {
+  position: relative;
+  width: 100%;
+  height: 60%;
+  top: 20%;
+}
+
+.logo {
+  display: flex;
+  padding: 20px;
+}
+.section1 {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  margin-top: 76px;
+}
+.corol_item {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #7e838b;
+  border-radius: 8.5px;
+  margin-left: 5px;
+}
+.corol_item1 {
+  color: #1f273f;
+}
+.corol_item2 {
+  background: #ffffff;
+}
+.corol_item3 {
+  background: #ed3333;
+}
+.corol_item4 {
+  background: #29e3ea;
+}
+.text_content {
+  display: flex;
+  flex-direction: column;
+  transition: 1s;
+}
+.list_star {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  font-style: normal;
+  margin-bottom: 30px;
+}
+.item_star {
+  width: 17px;
+  height: 17px;
+  background-size: contain;
+  margin: 3px;
+}
+.item_star1 {
+  background: url("/img/Star_color.png") no-repeat;
+  background-size: contain;
+}
+.item_star2 {
+  background: url("/img/Star.png") no-repeat;
+  background-size: contain;
+}
+.text_title {
+  font-family: "museo_sans", sans-serif;
+  font-style: normal;
+  font-weight: 250;
+}
+.text_title h2 {
+  font-size: 24px;
+  line-height: 26px;
+  color: #e1e1e1;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.text_title p {
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(225, 225, 225, 0.54);
+  margin-bottom: 30px;
+}
+.text_choice {
+  font-weight: 250;
+  font-size: 14px;
+  line-height: 17px;
+  color: #e1e1e1;
+}
+.select_item {
+  font-family: "museo_sans", sans-serif;
+  font-style: normal;
+  font-weight: 250;
+  font-size: 14px;
+  line-height: 17px;
+  background: #111a28;
+  color: #e1e1e1;
+  padding: 8px 14px;
+}
+.item_star:hover {
+  background-image: url("/img/Star_color.png");
+  transform: scale(1.5);
+}
+button {
+  width: 184px;
+  height: 40px;
+  background: rgba(76, 82, 90, 0.26);
+  border: 1px solid rgba(255, 255, 255, 0.26);
+  font-size: 14px;
+  line-height: 17px;
+  color: #e1e1e1;
+  margin-top: 32px;
+}
+button:hover {
+  background: rgba(137, 156, 180, 0.26);
+  transform: scale(1.2);
+}
+.corol_item:hover {
+  transform: scale(1.5);
+}

@@ -1,0 +1,128 @@
+::after,
+::before,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg {
+  width: 1500px;
+  height: 866px;
+  background: url("../img/BG.png") center center no-repeat;
+  background-size: cover;
+}
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+.top_text {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+}
+form {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+  border: none;
+  outline: none;
+}
+.date_text_fild {
+  align-content: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 25px;
+  color: #262626;
+}
+#text,
+#email,
+#number {
+  margin-bottom: 15px;
+  border: none;
+  background: rgba(0, 196, 196, 0.5);
+  width: 558px;
+  height: 50px;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+}
+#text::placeholder,
+#email::placeholder,
+#number::placeholder {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  padding: 10px;
+}
+textarea::placeholder {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #ffffff;
+  padding: 10px;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.fild_error {
+  color: crimson;
+  display: none;
+}
+.text:invalid + .fild_error {
+  display: block;
+}
+.text_about {
+  margin-left: 35px;
+}
+.text_about_style {
+  text-align: left;
+  margin-bottom: 20px;
+}
+.text_about_style h3 {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 25px;
+  color: #1f1c1c;
+}
+footer {
+  width: 1500px;
+  height: 90px;
+  background: #262626;
+  font-weight: 300;
+  line-height: 19px;
+  color: #b9b9b9;
+  border: none;
+  outline: none;
+  margin-top: -1px;
+}
+.text_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.footer_stule {
+  margin-top: 35px;
+}
+span {
+  color: rgb(196, 78, 78);
+}
+textarea {
+  width: 558px;
+  height: 250px;
+  background: rgba(0, 196, 196, 0.5);
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>payment form</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/utilities.css">
+    <link rel="stylesheet" href="./css/grid.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="modal">
+        <div class="modal__container">
+            <div class="modal__header">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="modal__title">
+                        <h2 class="name">Harold Finch</h2>
+                        <div class="total">Your Total</div>
+                    </div>
+                    <div class="modal__cost">$88</div>
+                </div>
+            </div>
+            <div class="modal__content form">
+                <form action="#" method="get">
+                    <div class="form__grid">
+                        <div class="form__control">
+                            <label for="number" class="form__label">Credit card number</label>
+                            <input type="text" name="number" id="number" class="form__input" data-mask="0000 0000 0000 0000">
+                        </div>
+                        <div class="form__control">
+                            <label for="" class="form__label">Expiration date</label>
+                            <div class="row">
+                                <div class="col-8">
+                                    <select name="month" id="month" class="form__input form__input--select">
+                                        <option value="" disabled="disabled" selected="selected" hidden>Month</option>
+                                        <option value="december">december</option>
+                                        <option value="october">october</option>
+                                    </select>
+                                </div>
+                                <div class="col-4">
+                                    <select name="year" id="year" class="form__input form__input--select">
+                                        <option value="" disabled="disabled" selected="selected" hidden>Year</option>
+                                        <option value="1990">1990</option>
+                                        <option value="1991">1991</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form__control">
+                            <label for="cvv" class="form__label">CVV</label>
+                            <div class="row">
+                                <div class="col-4">
+                                    <input class="form__input" type="password" name="cvv" id="cvv" maxlength="4" minlength="3">
+                                </div>
+                                <div class="col-8 d-flex">
+                                    <div class="form__info">
+                                        3 or 4 digits - 
+                                        <a href="javascript:void(0)">view example</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="form__devider">
+                    <button type="submit" class="form__submit">Pay</button>
+                    <a href="javascript:void(0)" class="modal__close">Cancel order</a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="./plugins/jquery.mask.min.js"></script>
+</body>
+
+</html>
