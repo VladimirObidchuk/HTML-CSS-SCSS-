@@ -1,0 +1,35 @@
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 2% 0 0;
+}
+.circle {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 2px;
+}
+.circle__after {
+  display: block;
+  background-color: $general;
+  border: 2px solid #fff;
+}
+.circle__center {
+  display: block;
+  background-color: #fff;
+  border: 2px solid $general;
+}
+.circle__after:hover {
+  background-color: #fff;
+  border: 2px solid $general;
+}
+.circle__center:hover {
+  display: block;
+  background-color: $general;
+}
+.divider__vert {
+  transform: rotate(90deg);
+  background-color: $general;
+  border: 1px solid $general;
+}

@@ -1,0 +1,33 @@
+header {
+  text-align: center;
+  h3 {
+    @include raleway_med;
+    color: $title_sub;
+    font-size: 1.13rem;
+    line-height: 1.25rem;
+    text-transform: uppercase;
+  }
+  h1 {
+    @include roboto_black;
+    color: $general;
+    font-size: 3.75rem;
+    line-height: 4rem;
+    text-transform: uppercase;
+  }
+  .bonfire {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .bonfire i {
+    margin: 0 3% 0;
+  }
+  .bonfire::after,
+  .bonfire::before {
+    content: "";
+    display: inline-block;
+    width: 15%;
+    height: 1px;
+    // border: 1px solid $general;
+  }
+}

@@ -1,0 +1,17 @@
+@import "block/fonts";
+@import "block/color";
+@import "block/header";
+@import "block/main";
+@import "block/footer";
+
+::before,
+::after,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+body {
+  margin: 10%;
+}

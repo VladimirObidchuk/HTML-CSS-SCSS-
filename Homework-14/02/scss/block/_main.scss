@@ -1,0 +1,184 @@
+main {
+  margin: 3% 0 0;
+}
+.photo__content {
+  margin: 5%;
+}
+.photo__content img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 3;
+}
+.photo__border {
+  display: inline-block;
+  position: relative;
+  z-index: 3;
+  align-items: center;
+  border: 1px solid $general;
+  margin: 2% 0 10%;
+}
+.photo__border::before {
+  content: "";
+  width: 110%;
+  height: 55%;
+  top: 22%;
+  left: -5%;
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  background: rgb(255, 255, 255);
+}
+.photo__border::after {
+  content: "";
+  width: 110%;
+  height: 55%;
+  top: 25%;
+  left: -10%;
+  display: inline-block;
+  position: absolute;
+  transform: rotate(90deg);
+  z-index: 1;
+  background: rgb(255, 255, 255);
+}
+.chevron__left,
+.chevron__right {
+  color: #ffcc00;
+}
+.chevron__left:hover,
+.chevron__right:hover {
+  cursor: pointer;
+  color: #898f8f;
+}
+.divider__content {
+  display: flex;
+  justify-content: center;
+}
+.divider {
+  width: 1%;
+  height: 400px;
+  background-color: $general;
+}
+.divider__title {
+  width: 20%;
+  height: 1px;
+  background-color: $general;
+  margin: 5% 0 5%;
+}
+.subtext__big {
+  width: 6%;
+  height: 2px;
+  background-color: $general;
+  border: 1px solid #ffcc00;
+  margin: 5% 1% 5%;
+}
+.subtext__small {
+  width: 3%;
+  height: 2px;
+  background-color: $general;
+  border: 1px solid #ffcc00;
+  margin: 5% 0 0;
+}
+h2 {
+  @include roboto_black;
+  font-size: 2.25rem;
+  line-height: 2.25rem;
+  text-align: center;
+}
+h3 {
+  @include raleway_med;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  color: $title;
+  text-align: center;
+}
+.icon__bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon__style a {
+  text-decoration: none;
+  color: $title;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon__style {
+  width: 8%;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid #898f8f;
+  margin: 3% 1% 3%;
+}
+.about__text {
+  @include raleway_med;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  color: $title;
+  text-align: center;
+}
+.but__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  @include open_bolt;
+  border: 2px solid $general;
+  color: $general;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 1% 5% 1%;
+}
+button:hover {
+  color: #ffffff;
+  background-color: $general;
+}
+@media (max-width: 1400px) {
+  .icon__style {
+    width: 10%;
+    height: 34px;
+  }
+}
+@media (max-width: 1200px) {
+  .icon__style {
+    width: 10%;
+    height: 30px;
+  }
+}
+@media (max-width: 998px) {
+  .icon__style {
+    width: 14%;
+    height: 32px;
+  }
+}
+@media (max-width: 768px) {
+  .divider__content {
+    display: none;
+  }
+  .chevron__left,
+  .chevron__right {
+    display: none;
+  }
+  .photo__border {
+    margin: 2% 17% 10%;
+  }
+  .but__content {
+    margin: 6% 0% 5%;
+  }
+  .icon__style {
+    width: 7%;
+    height: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .icon__style {
+    width: 8%;
+    height: 32px;
+  }
+}
