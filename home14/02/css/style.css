@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:regular,700&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header__main {
+  display: grid;
+  margin: 0 auto;
+}
+
+.header__item1 {
+  background-blend-mode: multiply;
+  background-position: top;
+  background-color: rgba(0, 0, 0, 0.26);
+  background: url("../img/Car.png") center center no-repeat;
+  grid-area: header__item1;
+}
+
+.header__item2 {
+  grid-area: header__item2;
+}
+
+.header__item3 {
+  grid-area: header__item3;
+}
+
+.header__item4 {
+  grid-area: header__item4;
+}
+
+.header__item5 {
+  grid-area: header__item5;
+}
+/*# sourceMappingURL=style.css.map */

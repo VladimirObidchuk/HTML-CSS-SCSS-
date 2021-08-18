@@ -1,0 +1,48 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:regular,700&display=swap);
+$font1: font-family "Raleway", sans-serif;
+
+@mixin raleway_reg {
+  font-family: $font1;
+  font-weight: 400;
+}
+@mixin raleway_bold {
+  font-family: $font1;
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.header {
+  &__main {
+    display: grid;
+    margin: 0 auto;
+  }
+}
+.header {
+  &__item1 {
+    background-blend-mode: multiply;
+    background-position: top;
+    background-color: rgba(0, 0, 0, 0.26);
+    background: url("../img/Car.png") center center no-repeat;
+    grid-area: header__item1;
+  }
+
+  &__item2 {
+    grid-area: header__item2;
+  }
+
+  &__item3 {
+    grid-area: header__item3;
+  }
+
+  &__item4 {
+    grid-area: header__item4;
+  }
+
+  &__item5 {
+    grid-area: header__item5;
+  }
+}

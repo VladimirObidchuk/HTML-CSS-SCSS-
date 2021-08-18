@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:regular,500,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <template id="movie-template">
+      <div class="movie movielist__track">
+        <img
+          src="https://api.deezer.com/album/103248/image"
+          alt="Cover"
+          class="track__image"
+        />
+        <div class="movie__info">
+          <h2 class="movie__title"></h2>
+          <div class="movie__year"></div>
+          <div class="movie__type"></div>
+          <div class="movie__details">
+            <div class="movie__alldetail">
+              <a href="#" class="detailse">Details>></a>
+            </div>
+            <!-- <p class="movie__coutries"></p>
+            <p class="movie__production"></p>
+            <p class="movie__director"></p>
+            <p class="movie__released"></p>
+            <p class="movie__runtime"></p>
+            <p class="movie__director"></p>
+            <p class="movie__director"></p> -->
+          </div>
+        </div>
+      </div>
+    </template>
+    <title>Search Movie</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h3 class="titleSearch">Movie Search!</h3>
+
+      <form action="#" class="search" name="search">
+        <input type="text" name="query" class="search__input" />
+        <button type="submit" class="button search_button">search</button>
+      </form>
+      <div class="actions">
+        <button id="prev" class="button actions__button">Previous</button>
+        <button id="next" class="button actions__button">Next</button>
+      </div>
+      <div class="movieList"></div>
+      <div class="movie__details"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  font-family: "Raleway", sans-serif;
+  background: linear-gradient(90deg, #00cdac 0%, #8ddad5 100%);
+  padding: 131px 0 143px;
+  min-height: 100vh;
+}
+
+.titleSearch {
+  font-weight: 900;
+  font-size: 64px;
+  line-height: 75px;
+  color: #f2f2f2;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0 0 16px;
+}
+
+.search {
+  max-width: 522px;
+  margin: 0 auto 35px;
+  position: relative;
+}
+
+.search_button {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+}
+
+.search__input {
+  display: block;
+  width: 100%;
+  background: #fafafa;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #4f4f4f;
+  border: 0;
+  font-family: inherit;
+  padding: 13px 132px 12px 16px;
+  outline: 0;
+}
+
+.button {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: 0;
+  border-radius: 4px;
+  padding: 8px 24px;
+  cursor: pointer;
+  font-family: inherit;
+  background: #5d94c2;
+}
+
+.movieList {
+  max-width: 656px;
+  margin: 0 auto 24px;
+}
+
+.movieList__track:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.movie {
+  background: #77e7e746;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 12px;
+  display: flex;
+  margin: 3%;
+}
+
+.movie__info {
+  flex-grow: 1;
+  margin: 5% 2% 6%;
+}
+
+.movie__title {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 30px;
+  color: #192444;
+}
+
+.movie__artist {
+  font-size: 20px;
+  line-height: 20px;
+  color: #414715;
+  margin: 6%;
+}
+
+.movie__type {
+  font-size: 20px;
+  line-height: 20px;
+  color: #aa1a1a;
+  margin: 6%;
+}
+
+.movie__button {
+  width: 42px;
+  height: 42px;
+  background-color: #efeded;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 0;
+  cursor: pointer;
+  outline: 0;
+  border-radius: 50%;
+}
+
+.detailse {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 3%;
+}
+
+.actions {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+.actions:empty {
+  display: none;
+}
+
+.actions__button {
+  display: none;
+}
+
+.actions__button:first-child {
+  margin-right: 12px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:regular,500,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Search Movie</title>
+  </head>
+  <body>
+    <div id="map"></div>
+    <div class="wrapper">
+      <div class="address__panel">
+        <div class="address__text">
+          <input
+            type="adress"
+            id="for"
+            class="address__first"
+            placeholder="Enter first adress"
+            value="Kremenchug"
+          />
+          <input
+            type="address"
+            id="to"
+            class="address__second"
+            placeholder="Enter second adress"
+            value="Kyiv"
+          />
+        </div>
+        <button type="submit" id="submit" class="address__submit">
+          Add Route
+        </button>
+      </div>
+    </div>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKQvG-Dfz9PinJy5Mf7vt4GZBQVvC9_Gc&v=weekly"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

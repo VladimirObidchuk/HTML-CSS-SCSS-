@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#map {
+  height: 100vh;
+}
+.wrapper {
+  font-family: "Raleway", sans-serif;
+}
+.address {
+  &__panel {
+    width: 35%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 6%;
+    left: 1%;
+    background: rgba(200, 200, 200, 0.199);
+    z-index: 5;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    line-height: 10px;
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+  }
+  &__first,
+  &__second {
+    height: 30px;
+    margin: 1% 0;
+  }
+  &__first::placeholder {
+    margin: 1%;
+  }
+  &__submit {
+    position: absolute;
+    right: 0;
+    width: 30%;
+    height: 40px;
+    background: linear-gradient(#2ae5ec9f, #535bb49c);
+  }
+}
